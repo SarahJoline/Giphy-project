@@ -1,0 +1,46 @@
+* {
+  margin: 0.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.gif-btn,
+#search {
+  font-size: 15px;
+  margin: 4px;
+  color: white;
+  border: 3px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(170, 53, 92);
+}
+
+#form {
+  float: right;
+}
+
+.gifContainer {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* I didn't have time to fully make the mobile responsive bit work but am leaving it in as I plan to play around with it later on.
+Any tips? I'm sort of struggling this one.  */
+
+/* @media screen and (max-width: 640px) {
+  #form {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    position: relative;
+  }
+
+  .gifContainer {
+    margin: 0.5%;
+    position: absolute;
+  }
+} */
