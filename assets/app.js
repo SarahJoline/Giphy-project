@@ -63,6 +63,7 @@ $(document).ready(function() {
       url: queryUrl
     }).then(response => {
       const results = response.data;
+      console.log(response.data);
       for (var i = 0; i < results.length; i++) {
         var gifDiv = $("<div>");
         var imgStill = results[i].images.fixed_height_still.url;
